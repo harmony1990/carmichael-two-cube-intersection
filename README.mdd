@@ -1,0 +1,20 @@
+# 1729 as the Unique Square-Free Carmichael with Two Distinct Positive Two-Cube Representations ≤ 10⁸
+
+**Author:** E.J.B  
+**License:** All Rights Reserved
+
+## Summary
+
+This repository contains the computational evidence, datasets, and work-in-progress note showing that within the bounds N ≤ 10⁸, the only square-free Carmichael number that admits two distinct unordered positive two-cube representations is **1729**.
+
+**Method:**  
+1) enumerate all N ≤ 10⁸ with ≥2 unordered positive two-cube representations  
+2) filter for Carmichael numbers using Korselt’s criterion  
+Only **1729** survives both constraints.
+
+Artifacts included in this repository:
+- PDF note (Draft 0.5)  
+- CSV: multi two-cube candidates ≤ 10⁸  
+- CSV: Carmichael subset among them
+
+This repository serves as a public timestamped record of this micro-domain result.
